@@ -63,7 +63,7 @@ font-size: 18px;
 line-height: 30px; 
 }
 .header{
-    background-color: #FFF8F3;
+    background-color: #e5dfda;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -87,10 +87,26 @@ line-height: 30px;
     margin-bottom: 20px;
 }
 /* main section style*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+}
 
 /* about section style */
 .about {
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #e5dfda;
+    margin-top: 120px;
+    margin-bottom: 120px;
+   
 }

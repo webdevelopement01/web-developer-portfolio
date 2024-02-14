@@ -185,5 +185,19 @@ footer{
    display: flex; 
    background: #e4dbd8;
    margin-top: 100px;
-   padding: 130px 200px;j
+   padding: 130px 200px;
+}
+
+.footer-column{
+    width: 50%;
+}
+.contact input, textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: #757575;
+    background: #FFF;
+    border: 0;
+
 }
